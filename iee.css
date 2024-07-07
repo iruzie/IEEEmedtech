@@ -1,0 +1,171 @@
+/* Reset some basic elements for consistent styling across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    background: #004b87; /* Deep blue background */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff; /* Blue button */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Logo Styles */
+.logo {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    width: 100px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Navigation Styles */
+nav {
+    background: #007bff; /* Blue background */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Container Styles */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Section Styles */
+section {
+    padding: 20px 0;
+    background: #fff;
+    margin-bottom: 10px;
+}
+
+section h2 {
+    border-bottom: 2px solid #004b87; /* Blue underline for section titles */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Agenda Section */
+#agenda ul {
+    list-style-type: none;
+}
+
+#agenda li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+/* Speakers Section */
+#speakers {
+    background: #f4f4f4; /* Light gray background */
+}
+
+.speaker {
+    margin-bottom: 20px;
+}
+
+.speaker h3 {
+    color: #004b87; /* Match header background */
+}
+
+.speaker p {
+    margin: 5px 0;
+}
+
+/* Contact Section */
+#contact {
+    background: #eaf2f8; /* Light blue background */
+    text-align: center;
+}
+
+#contact p {
+    margin: 10px 0;
+}
+
+/* Footer Styles */
+footer {
+    background: #004b87; /* Deep blue background */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    .cta-button {
+        font-size: 1em;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    #agenda li {
+        font-size: 1em;
+    }
+}
